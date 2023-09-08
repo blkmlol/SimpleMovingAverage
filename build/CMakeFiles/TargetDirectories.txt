@@ -1,0 +1,3 @@
+C:/BLMP/VSC/SMA/build/CMakeFiles/SimpleMovingAverage.dir
+C:/BLMP/VSC/SMA/build/CMakeFiles/ALL_BUILD.dir
+C:/BLMP/VSC/SMA/build/CMakeFiles/ZERO_CHECK.dir

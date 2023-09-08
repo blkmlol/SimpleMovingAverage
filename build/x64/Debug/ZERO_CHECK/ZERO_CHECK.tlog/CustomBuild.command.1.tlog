@@ -1,0 +1,10 @@
+^C:\BLMP\VSC\SMA\BUILD\CMAKEFILES\65288A97DE20225125902AF2D5D7D7B5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/BLMP/VSC/SMA -BC:/BLMP/VSC/SMA/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/BLMP/VSC/SMA/build/SimpleMovingAverage.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
